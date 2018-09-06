@@ -8,8 +8,9 @@ import android.content.Intent;
  */
 
 public class IntentToActivity {
-    
+
     public static void skipToActivity(Activity activity,Class<? extends Activity> cls){
         activity.startActivity(new Intent(activity,cls));
+
     }
 }

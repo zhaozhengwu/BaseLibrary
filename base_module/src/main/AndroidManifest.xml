@@ -1,2 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.muheda.base_module" />
+    package="com.example.muheda.base_module">
+    <application
+        android:name=".MyApplication">
+    </application>
+</manifest>
